@@ -1,8 +1,8 @@
 sources:
-  - name: "Snowflake Source Raw"
+  - name: "Snowflake Source Staging"
     database: DB_ECOMM
     schema: RAW
     tables:
       - name: customer
       - name: orders
-      - name: payment
+      - name: payment 
